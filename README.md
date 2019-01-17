@@ -15,7 +15,7 @@ Auto-analysis for Real-Time RCP (qPCR) data
 - ggsci
 - reshape2
 - dplyr
-## 2. Input
+## 2. INPUT
 ## 3. USAGE
 ```
 ./qPCR.sh /public/home/zpxu ganshe.csv 18 8 no
