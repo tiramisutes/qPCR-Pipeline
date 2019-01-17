@@ -3,10 +3,10 @@ Auto-analysis for Real-Time RCP (qPCR) data.
 
 This qPCR experiment usually have two group: Control (CK) and sample, and at least two type genes: **[Housekeeping Gene](https://en.wikipedia.org/wiki/Housekeeping_gene) (HG)** and **Target Gene (TG)**. In our lab this usually label with **ub7** and **ve**.
 
-* [Dependencies](#Dependencies)
-* [INPUT](#INPUT)
-* [USAGE](#USAGE)
-* [OUTPUT](#output)
+* [Dependencies](#1-Dependencies)
+* [INPUT](#2-INPUT)
+* [USAGE](#3-USAGE)
+* [OUTPUT](4-output)
 ## 1. Dependencies
 - python
   - collections
