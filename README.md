@@ -52,3 +52,5 @@ Running on the example data:
 - raw_input_qPCR_T-test.pdf
 
 ![](https://raw.githubusercontent.com/wiki/tiramisutes/blog_image/Pro_raw_input_qPCR.png)
+
+![](https://raw.githubusercontent.com/wiki/tiramisutes/blog_image/raw_input_qPCR_T-test.png)
