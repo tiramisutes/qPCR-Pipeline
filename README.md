@@ -1,6 +1,6 @@
 # Real-Time-RCP-qPCR-Pipeline
 Auto-analysis for Real-Time RCP (qPCR) data
-## 1. 
+## 1. Dependencies
 ### python
 - collections
 - itertools
@@ -15,7 +15,9 @@ Auto-analysis for Real-Time RCP (qPCR) data
 - ggsci
 - reshape2
 - dplyr
-
+## 2. Input
+## 3. USAGE
 ```
 ./qPCR.sh /public/home/zpxu ganshe.csv 18 8 no
 ```
+## 4. OUTPUT
