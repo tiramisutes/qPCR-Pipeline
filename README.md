@@ -1,5 +1,6 @@
 # Real-Time-RCP-qPCR-Pipeline
 Auto-analysis for Real-Time RCP (qPCR) data
+[toc]
 ## 1. Dependencies
 - python
   - collections
