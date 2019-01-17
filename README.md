@@ -6,7 +6,7 @@ This qPCR experiment usually have two group: Control (CK) and sample, and at lea
 * [Dependencies](#1-Dependencies)
 * [INPUT](#2-INPUT)
 * [USAGE](#3-USAGE)
-* [OUTPUT](4-output)
+* [OUTPUT](#4-output)
 ## 1. Dependencies
 - python
   - collections
