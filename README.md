@@ -37,3 +37,12 @@ Running on the example data
 ```
 
 ## 4. OUTPUT
+- raw_input_qPCR_ubq7.csv
+- raw_input_qPCR_ve.csv
+- RQraw_input_qPCR_ve.csv
+- RQraw_input_qPCR_ubq7.csv
+- raw_input_qPCR_R.csv
+- raw_input_qPCR_ANOVA.csv
+- Pro_raw_input_qPCR_R.csv
+- Pro_raw_input_qPCR.pdf
+- raw_input_qPCR_T-test.pdf
