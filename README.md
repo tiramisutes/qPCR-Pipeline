@@ -29,7 +29,7 @@ There is a example input data in `Example_data/`.
 ./qPCR.sh A B C D E
 ```
 Argument:
-- A: absolute path of Input data (e, /public/home/hope/qPCR)
+- A: absolute path of Input data (e, `/public/home/hope/qPCR`)
 - B: Input Data (e, raw_input_qPCR.csv)
 - C: Width of output pdf file
 - D: Height of output pdf file
