@@ -26,7 +26,7 @@ This qPCR experiment usually have two group: Control (CK) and sample, and at lea
 There is a example input data in `Example_data/`.
 ## 3. USAGE
 ```
-./qPCR.sh A B C D E
+./qPCR.sh A B C D E F
 ```
 Argument:
 - A: absolute path of Input data (e, `/public/home/hope/qPCR`)
@@ -34,6 +34,7 @@ Argument:
 - C: Width of output pdf file
 - D: Height of output pdf file
 - E: Whether plot a scientific journals figure using the ggsci packages (yes or no)
+- F：The sample name used as reference level in ANOVA analysis
 
 Running on the example data:
 ```
