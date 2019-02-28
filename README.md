@@ -34,11 +34,11 @@ Argument:
 - C: Width of output pdf file
 - D: Height of output pdf file
 - E: Whether plot a scientific journals figure using the ggsci packages (yes or no)
-- F：The sample name used as reference level in ANOVA analysis
+- F: The sample name used as reference level in ANOVA analysis
 
 Running on the example data:
 ```
-./qPCR.sh /public/home/hope/qPCR raw_input_qPCR.csv 18 8 no
+./qPCR.sh /public/home/hope/qPCR raw_input_qPCR.csv 18 8 no CK
 ```
 
 ## 4. OUTPUT
