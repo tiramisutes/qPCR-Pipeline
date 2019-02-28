@@ -19,7 +19,7 @@ p<- ggplot(t1, aes(x=Sample, y=mean),xaxt="n") +
   labs(y="Relative Expression")
 #print(p)
 
-if (args[4]==TRUE) {
+if (args[4]=="yes") {
   pp <- p+scale_fill_npg()
   ggsave(pp, filename = paste0("ggsci_",gsub("_R\\.csv","",args[1]),".pdf"), device = cairo_pdf, width = as.integer(args[2]), height = as.integer(args[3]), units = "in")
 } else {
