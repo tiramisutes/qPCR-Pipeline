@@ -13,3 +13,14 @@ test
 pdf(paste0(gsub("ANOVA\\.csv","T-test",args[1]),".pdf"),width=8, height=6,useDingbats=FALSE)
 plot(glht(aov(X2log ~ Sample, data=strains), linfct=mcp(Sample="Dunnett")))
 dev.off()
+## Significance Test
+a = TukeyHSD( aov(X2log ~ Sample, data=strains) )$Sample
+b=as.data.frame(a)
+names(b)[names(b) == 'p adj'] <- 'padj'
+c=b[which(b$padj<0.05), ]
+c$sig[c$padj <= 0.05 ] <- "*"
+c$sig[c$padj <= 0.01 ] <- "**"
+c$sig[c$padj <= 0.001 ] <- "***"
+print("The results of Significance Test")
+c
+print("Signif. codes:  <= 0.001 ‘***’ <= 0.01 ‘**’ <= 0.05 ‘*’ ")
