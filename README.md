@@ -3,7 +3,7 @@ Auto-analysis for Real-Time RCP (qPCR) data.
 
 This qPCR experiment usually have two group: Control (CK) and sample, and at least two type genes: **[Housekeeping Gene](https://en.wikipedia.org/wiki/Housekeeping_gene) (HG)** and **Target Gene (TG)**. In our lab this usually label with **ub7** and **ve**.
 
-Congratulation. A alternative way to analysis of qPCR data can be find in : [A shiny for analysis qRT-PCR data](https://ihope.shinyapps.io/qRT-PCR-Pipeline/)
+Congratulations!  A alternative way to analysis of qPCR data can be find in : [A shiny for analysis qRT-PCR data](https://ihope.shinyapps.io/qRT-PCR-Pipeline/)
 
 ![](http://tiramisutes.github.io/images/qPCRshiny.png)
 
