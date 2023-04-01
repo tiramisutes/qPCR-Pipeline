@@ -1,19 +1,14 @@
-citHeader("To cite multiWGCNA in publications use:")
-
-citEntry(
-  entry    = "Article",
-  title    = "multiWGCNA: an R package for deep mining gene co-expression networks in multi-trait expression data",
-  author   = personList( as.person("Dario Tommasini"),
-                         as.person("Brent L. Fogel")),
-  journal  = "BMC Bioinformatics",
-  year     = 2023,
-  volume   = NA,
-  number   = NA,
-  pages    = NA,
-  url      = NA,
-  textVersion = paste("Tommasini, D., Fogel, L.B.,", 
-    "multiWGCNA: an R package for deep mining gene co-expression networks in multi-trait expression data",
-    "BMC Bioinformatics forthcoming (2023)"
-
-  )
-)
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Lisa"
+  given-names: "Mona"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Bot"
+  given-names: "Hew"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "My Research Software"
+version: 2.0.4
+doi: 10.5281/zenodo.1234
+date-released: 2017-12-18
+url: "https://github.com/github/linguist"
